@@ -191,15 +191,15 @@ background-repeat: no-repeat;
 
 /* Specific background images for each slide */
 #carousel-slide-1 {
-background-image: url('./images/ac.webp');
+background-image: url('./images/acrepair.jpg');
 }
 
 #carousel-slide-2 {
-background-image: url('./images/washingmachine.webp');
+background-image: url('./images/washingmachine2.jpg');
 }
 
 #carousel-slide-3 {
-background-image: url('./images/fridge.jpg');
+background-image: url('./images/fridgerepair.jpg');
 }
 
 /* Optional: Styling for captions to improve readability */
