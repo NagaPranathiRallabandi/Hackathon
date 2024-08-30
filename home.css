@@ -370,7 +370,7 @@ min-width: 250px; /* Adjust the width as needed */
 
 .most-booked-item img {
 width: 300px; /* Medium size for images */
-height: auto;
+height: 200px;
 border-radius: 10px;
 }
 

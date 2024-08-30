@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+menu{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5%;
+    background-color: aliceblue;
+}
+.container{
+    display: inline-block;
+    background-color: aliceblue;
+}

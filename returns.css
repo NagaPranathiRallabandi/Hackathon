@@ -1,0 +1,40 @@
+body{
+    background: rgb(229, 239, 255);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ .heading{
+    font-size: large;
+ }
+ .back-button{
+    color: #545dbf;
+    background-color: #ffffff00;
+    position: relative;
+    border-color: #2531b500;
+    top:50px;
+    right: 220px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.container {
+    width: 500px;
+    background-color: #545dbf00;
+    border-radius: 10px;
+    color: #545dbf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding:0px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .bookings{
+    color: black;
+    text-align:center;
+    font-weight: 100;
+    font-size: smaller;
+    font-family: sans-serif;
+  }

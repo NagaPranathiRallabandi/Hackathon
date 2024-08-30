@@ -1,0 +1,123 @@
+body{
+    background: #fbfcf8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ h1{
+     text-align: center;
+     font-size: 40px;
+     font-family: sans-serif;
+     font-style: normal;
+     color: #1A5398;
+ }
+ h4{
+     text-align:inherit;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-style: normal;
+     color: #1A5398;    
+ }
+.back-button{
+     color: #C1DCFF;
+     background-color: #ffffff00;
+     position: relative;
+     border-color: #2531b500;
+     top:20px;
+     right: 220px;
+     cursor: pointer;
+     font-size: 18px;
+ }
+
+
+ input[type=text] {
+     width: 75%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     border-radius: 10px;
+     box-sizing: border-box;
+     border: 3px solid #ccc;
+     -webkit-transition: 0.5s;
+     transition: 0.3s;
+     outline: none;
+   }
+   input[type=text]:focus {
+     border: 3px solid #555;
+   }
+   input[type=email] {
+     width: 75%;
+     border-radius: 10px;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: 3px solid #ccc;
+     -webkit-transition: 0.5s;
+     transition: 0.5s;
+     outline: none;
+   }
+   input[type=email]:focus {
+     border: 3px solid #555;
+   }
+   input[type=tel] {
+     width: 75%;
+     border-radius: 10px;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: 3px solid #ccc;
+     -webkit-transition: 0.5s;
+     transition: 0.5s;
+     outline: none;
+   }
+   input[type=tel]:focus {
+     border: 3px solid #555;
+   }
+   .text-container{
+    background-color: aliceblue;
+    color: #fff;
+    height: 650px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+   }
+   .container {
+    width: 500px;
+    height: 500px;
+    background-color: #545dbf00;
+    border-radius: 10px;
+    color: #1A5398;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding:0px;
+    text-align: center;
+  }
+  .save-button{
+    height: 30px;
+    width: 50px;
+    background-color: #1A5398;
+    color: #fff;
+    border-radius: 10px;
+    border-top-color: #2531b500 ;
+    border-bottom-color: #2531b500 ;
+    border-left-color: #2531b500 ;
+    border-right-color: #2531b500 ;
+    cursor: pointer;
+  }
+  :hover.save-button{
+    background-color: #1A5398;
+    transition: 10ms;
+  }
+  .profile-icon{
+    height:64px;
+    width:64px;
+    border:none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFf0lEQVR4Xu1bTVYUSRDOrBZtdrhT2RQnsDmB9AmgRdcDO9CFcIKxT4CzGGE3PWsFmxOIJ5ieE0xtQHf2DhW6ciLKaqdfVVZmZGZU4TzI93jw6MyMiC8j4zdbims+5DWXX9wAcKMBDSBwb20/jlqqI5TsKCkfgdot5GTxN/6MlRAJ/H+c/a3Sv1Uqh5+G20nd7NV2Be492V9pCbmqlNjIhfSRZSylGAAgH84Onw19NrCtYQUgXttb+Ba1d4SUq0C4YyPu+PlIKvXb6dH2wHGdcToLACj4RdReA/XeCzhtslygFa9O327tkhcYJgYDgKoeqUxw7hO3yTeS0WTz9M3zkW2i6XNvALJTvzX/K9zxnRAGQteGaoMXANldb83/AcyvhQrAtH50dri17LOXMwCLT3/vqLSFwjet8jb5Rrcn591kuIuulDycAPjuz+V72D0mU2h2YgJ2oediF8gAoNp/bc2/gwUrzcrkTG0MmrBE1QQSAD/hnTeiAlHlycfDrS4FOhIAi08O9q7a2lOEmZ0D0ePux6Nnr2zrrADkfv4dV4CDpwMR3QfZSodzF98SZPBi7nacTuSKlNEvnMY1lar76e32iXccwHzvMcnp207l/uPXOwAEBlYcIwH3uOQNACMzo3SietTsjhN40LZNU/5QeQVyw/cPg+qPwTV1XVwTnlhO/zODGoxBC+5W7VMJANfpU42RjsEH668h0ozQ/gQNEw+VADxYP/iLwSANAf1eCPfABwIQGnJXaoEWAC7khVL9s6PtlyEALD7e34A0G0PvoAE2aElngyoAYEFdwN1fdr37RSkZbcEAtHGzuH8VAGj84iDIYXEV6i77MgKgvQYlAPJsD+9/8ICY/C41JjcRAzsA8VP40B1IGQCmO4fsclyBPANFjQweOm9QAgDQRoOzEUwNNghxgVP6bAYZN9QYZR0AHG5nyr93peY/AHgMcr5fyS2XALi/fvCeN+dPe741fS4XOKPNpdxApwEsHmCG6BiMzzI1D5iuYwzFZ2/zlQCADDgnQzUVXUuuUKcBmIBMe3cctvDHHrbMDCdy1x8KApAA4MgBTMANAYjjSSpO8Fqgqn8R7YWseSqygkho3G+ibb8C/EaQVYlCNyt5pVrjgFBua1hvd4P/xwIoFShdG63WUJjKWFPzdEa4BABj9tWUXGQ6utyk1nSYzFkzE7VhuRYADjuA9X+h0mNwbydY/3dNi7P2O/QLxCTCd0X44iTIPVa10bUA5MEINkF9BjxYSPu+8X8VwbxOgYla7MMU8KTNSUxFUeecAFGeuzzvu562i0Ce2plAcWZZx1clAK6ZWOhLjVpBMBRnjb1BKI5QtaASYRfBXOY6lO2N7XIjAFQtoDQhXYSjzCWXyiyleWt3mIB0cPODIrBuDqF8Z9VMKwA2pDnqfr4AWDR0DJrZC2qPTxkz9QmvQv2nfBmjVmJXyqoBP0CoqBVyND98NaAKAAzC7kzOexR3TAYgJ4bBUfF5nFO5y1fY4jrDu6UEDqVLrUGSAUAGcnuAFaNiyQze5qWb3NFfFVh5pIr9i2JU6PwWwQmAGRC0bwXrDoZmnudu6A7B5yGGMwAIguE6ZIfGDYRFcCTpfQ29AJiqpi0uRyAmQh3bXJFO1bNi6a12x/ali9D8IwgAZNwhSxviNz9UJL8/b78UyWxVuDWXLsDXZGJ4jxhDV3UVGENjayrPs2SdwQBQYgUuy5/vkz23u5N+HVDcnI02GwAFIF5oLLSNF9vnCXR3/0xTMaC6ONuGmb2iTPKZk7e1sZKDFtt34LfJRkqqfvvyy4jjxIuM1AbALCH02zJVHXgB+hAEioFonN/v7Ctz+dxk+htthW8pzRXpRgBwZarJ+TcANIn2z0jr2mvAv8588V9ncpw7AAAAAElFTkSuQmCC);
+  }
+  :hover.profile-icon{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAEEUlEQVR4Xu2asW/TQBTG33PpwEQXhhqJpUhQsXVFQsDA0gpoUhhgANSitF0BiZW9LEi0qaBSGWCgTSZAgqF/QgcWQGoZKtUgdYGJIcWPZyd2bdfOnR078bmJcsrgs+Pvd+9993w+hCP+wSOuH/oA+hGgMIFTpcVx6/Z36/MfkspQNgX0UnWaE/iVLZxgxqjPriSBoCQAVzzijqWev6eTQlAOgGfkt0EbtFMAzIaVAiNA5gOjPt+MCsmPUgCC4o216e+WTv3mytmkEJQBECXeGeikEJQAIBLfCYTcA9BLSwuA+JBF/uScv+yEfVSKx42EXAPwTnXs9fvcrv+qzX4U+ZsfArIxViKNMbcAvGFPBF8QYZLn/YZJcCM2BGQI6+EQcglALy3OAGoveaTtqc4Ke728tAqAd9OGkDsAYeJdk0sKgRqfrWIJCSd26xVf2ZwrAO3EByGwH/zjdk2UDnp5+RwgfWoCMBmA/7khNwBkxLsQSktbPDOMiCDY4oHeN6vE8OeFXACIJd5NA9wCojNRniAj3gLacwCJxAOsGrXZ+1HGKCu+5wA6ER9ljBrgD1HYe+uInkVAGuIPGyPtI2p7nBrDso/HPQGQpngHwnCpWreLJSuriaQXSLoOIAvxvpwHWGB/eCwql53jXQWQufgES2NdA5BH8V2bBfIqvisA8iw+cwB5F58pABXEZwZAFfGZANBLy7yYQb7FjMj1O+fBBui1UZu7F91P/FQnO+8H+6U6DaomPtUI0Kd45EmdkU+1ElRVfCoRoLL4jgGoLr4jAEUQnxhAUcQnAlAk8bEBFE18LABFFC8NoLXk9JVP+MtLbnuAg1ejXlO7S9U9LG/jlMVSpTCXuLe5vn/DF37H7Ra3bV58nDBqlW/eP1NNvHwETPEmBbI2KeAol7sXWtvTfBBUFC8PoFzd4M5jvNo6ZJ3k27LCkcDbtJ7Yr64VCXtv1MqlQLn6m0/aZABXnJMdCAS0h4AnVRQvFQGuARI9M+pzj3w539qt2YSgXQx6ggtL4i1tHONKs68wAlwDJLzDe23eBv88mA6HjTG7xYw0QIgBTC2zAZJtgJEjfLBvN2CM+RYvmQJ+A4yifsgYtWN0sHsz+WbmNEa53TXEERBigEIICDv8drbB/SJ3ZmQtTPb6bQG4BohsgOt+Awz7g+HJF6OoDTzlYzw1wnHZV9SyN5tFv/YAnAowxABtOARjoHHjXwQa4z07J9ybTPCiMguBomu2B9AyQBNgXCMcaoolFgt+sQB/rDqBy+VNMDX+tWoGf5ksupFeHRekQHWDR/USd/L2a4olFgvccEAZsWGQBRFQfc4nnecQZ7HcNHPTWJu39+gX5SOcBYoiNEpHH0DRR1ikrx8BIkJFP96PgKKPsEjff+eVyG6pz8AgAAAAAElFTkSuQmCC);
+    opacity: 0.3;
+  }

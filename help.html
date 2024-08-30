@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E0EAF8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            font-size: 24px;
+            color: #274A7C;
+            margin-bottom: 20px;
+        }
+
+        .options {
+            background-color: #B7C8E2;
+            border-radius: 10px;
+            padding: 10px 0;
+        }
+
+        .option {
+            padding: 15px;
+            font-size: 18px;
+            color: #274A7C;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ffffff;
+            cursor: pointer;
+        }
+
+        .option:last-child {
+            border-bottom: none;
+        }
+
+        .option img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .option span {
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .option:hover {
+            background-color: #a3b8d800;
+            font-weight: bold;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 230px;
+            left: 190px;
+            font-size: 18px;
+            background:none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .back-button img {
+            width: 24px;
+            height: 24px;
+            
+        }
+        span{
+            font-size: 18px;
+            color: #274A7C;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="header">Help & Support</div>
+        <button class="back-button" onclick="window.history.back()">←</button>
+        <div class="options">
+            <div class="option">
+               <span onclick="window.location.href='editprofile.html'">
+                <span >Account</span>
+
+                </span>
+            </div>
+            <div class="option">
+                <span>Getting started with EleRep </span>
+            </div>
+            <div class="option" onclick="window.location.href='payments.html'">
+                <span>Payments &nbsp;</span>
+      
+            </div>
+            <div class="option" onclick="window.location.href='retruns.html'"">
+                <span>Returns and Exchanges &nbsp;&nbsp;</span>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
