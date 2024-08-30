@@ -1,0 +1,73 @@
+body {
+    background-color: #C1DCFF;
+    font-family: 'Assistant', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.otp-container {
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 360px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 25px;
+}
+.otp-field {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.otp-input {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+    text-align: center;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+.otp-input:focus {
+    border-color: #1A5398;
+    box-shadow: 0 0 3px rgba(26, 83, 152, 0.5);
+}
+.verify-button {
+    background-color: #1A5398;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+.verify-button:hover {
+    background-color: #003f6c;
+}
+.resend {
+    font-size: 0.8rem;
+    color: #999;
+}
+.resend a {
+    color: #1A5398;
+    text-decoration: none;
+    font-weight: 500;
+}
+.resend a:hover {
+    text-decoration: underline;
+}

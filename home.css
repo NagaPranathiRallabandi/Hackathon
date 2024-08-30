@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    font-family: 'Assistant', sans-serif;
+    background-color: #F5F7FA;
+}
+.navbarpad {
+    background-color: #1A5398;
+    padding: 5px 15px;
+}
+.navbar {
+    background-color: #1A5398;
+    color: #FFFFFF;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar h1 {
+    color: #f5f5f5;
+    font-family: 'Kreon', serif;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: normal;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li {
+    margin: 0;
+}
+.navbar ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.navbar ul li a:hover {
+    color: #C1DCFF;
+}
+
+/*hero styling*/
+.content {
+    padding: 40px;
+    text-align: center;
+}
+.content h2 {
+    font-family: 'Kreon', serif;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+.content p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.section {
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.hero-section {
+    background-color: #C1DCFF;
+    color: #FFFFFF;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.hero-content h2 {
+    font-family: 'Kreon', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: #1A5398;
+    color: #f5f5f5;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.cta-button:hover {
+    background-color: #FFFFFF;
+    color: #1A5398;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1A5398;
+    color: #f5f5f5;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .left-side, .footer .center, .footer .right-side {
+    flex: 1;
+    margin: 0 20px;
+}
+.footer .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer .logo {
+    font-family: 'Kreon', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #f5f5f5;
+    margin-bottom: 20px;
+}
+.footer .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer .nav ul li {
+    display: block;
+}
+.footer .nav ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+.footer .nav ul li a:hover {
+    color: #C1DCFF;
+}
+.footer .center {
+    text-align: center;
+}
+.footer .center a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.footer .center a:hover {
+    color: #C1DCFF;
+}
+.footer .right-side {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer .social-media a {
+    color: #f5f5f5;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer .social-media a:hover {
+    color: #C1DCFF;
+}
+
+/* General carousel item styling */
+.carousel-item {
+height: 100vh; /* Full height */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+/* Specific background images for each slide */
+#carousel-slide-1 {
+background-image: url('./images/ac.webp');
+}
+
+#carousel-slide-2 {
+background-image: url('./images/washingmachine.webp');
+}
+
+#carousel-slide-3 {
+background-image: url('./images/fridge.jpg');
+}
+
+/* Optional: Styling for captions to improve readability */
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background to the text */
+padding: 1rem;
+border-radius: 10px;
+}
+/* General Styles */
+body {
+font-family: 'Assistant', sans-serif;
+background-color: #F5F5F5;
+color: #1A5398;
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* Services Section */
+
+.services-section {
+padding: 4rem 3rem;
+background-color: #C1DCFF;
+text-align: center;
+border-radius: 30px;
+}
+
+.section-title {
+font-size: 2.5rem;
+margin-bottom: 1rem;
+color: #1A5398;
+}
+
+/* See More Link */
+.see-more-link {
+font-size: 1rem;
+color: #1A5398;
+text-decoration: none;
+margin-bottom: 2rem;
+display: inline-block;
+transition: color 0.3s ease;
+}
+
+.see-more-link:hover {
+color: #134075;
+}
+
+/* Services Grid */
+.services-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 2rem;
+}
+
+.service-item {
+background-color: #F5F5F5;
+padding: 1.5rem;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+text-align: center;
+}
+
+.service-item img {
+
+width: 100%;
+height: 200px;
+border-radius: 10px;
+}
+
+.service-item h3 {
+font-size: 1.5rem;
+margin: 1rem 0 0.5rem;
+color: #1A5398;
+}
+
+.service-item p {
+font-size: 1rem;
+color: #333;
+}
+
+/* Book Now Button */
+.btn-book-now {
+display: inline-block;
+margin-top: 1rem;
+padding: 0.75rem 1.5rem;
+background-color: #1A5398;
+color: #F5F5F5;
+border-radius: 5px;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+
+.btn-book-now:hover {
+background-color: #134075;
+}
+
+/* Hover Effect */
+.service-item:hover {
+transform: translateY(-10px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+.services-grid {
+grid-template-columns: 1fr;
+}
+}
+
+/* General Styles */
+body {
+font-family: 'Assistant', sans-serif;
+background-color: #F5F5F5;
+color: #1A5398;
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+/* Most Booked Services Section */
+.most-booked-section {
+padding: 4rem 3rem;
+background-color: #C1DCFF;
+text-align: center;
+position: relative;
+border-radius: 30px;
+}
+
+.section-title {
+font-size: 2.5rem;
+margin-bottom: 2rem;
+color: #1A5398;
+}
+
+/* Horizontal Scrolling Container */
+.most-booked-scroll {
+display: flex;
+overflow-x: auto;
+padding: 1rem;
+scroll-snap-type: x mandatory;
+gap: 1rem;
+}
+
+.most-booked-scroll::-webkit-scrollbar {
+display: none; /* Hide scrollbar for WebKit browsers */
+}
+
+.most-booked-item {
+background-color: #F5F5F5;
+padding: 1.5rem;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+flex: 0 0 auto; /* Prevent items from shrinking */
+scroll-snap-align: start;
+min-width: 250px; /* Adjust the width as needed */
+}
+
+.most-booked-item img {
+width: 300px; /* Medium size for images */
+height: auto;
+border-radius: 10px;
+}
+
+.most-booked-item h3 {
+font-size: 1.5rem;
+margin: 1rem 0 0.5rem;
+color: #1A5398;
+}
+
+.most-booked-item p {
+font-size: 1rem;
+color: #333;
+}

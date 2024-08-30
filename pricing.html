@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <button class="back-button" onclick="window.history.back();">&larr;</button>
+            <h1>Pricing</h1>
+        </header>
+        
+        <!-- Payment Summary Section at the Top -->
+        <section class="payment-summary">
+            <h2>Payment Summary</h2>
+            <p>Repair cost<span>&#8377; xxxx</span></p>
+            <br>
+            <p>Including All Taxes <span>&#8377; xx</span></p>
+            <hr>
+            <p>Total <span>&#8377; xxxx</span></p>
+        </section>
+
+        <!-- Address Confirmation Section Below Payment Summary -->
+        <section class="address-confirmation">
+            <h2>Delivery Address</h2>
+            <p><strong>Name:</strong> <span id="display-name"></span></p>
+            <br>
+            <p><strong>Address:</strong> <span id="display-street"></p>
+            <br>
+            <p><strong>Phone:</strong> <span id="display-phone"></span></p>
+            <br>
+            <button class="next-button" onclick="window.location.href='address.html'">Change</button>
+        </section>
+
+        <!-- Amount to Pay Section -->
+        <section class="amount-to-pay">
+            <h2>Amount to pay</h2>
+            <p>Payment Summary <span>&#8377; xxxx</span></p>
+            <br>
+            <p>Service Charges <span>&#8377; xx</span></p>
+            <hr>
+            <br>
+            <p>Total <span>&#8377; xxxx</span></p>
+        </section>
+
+        <!-- Payment Methods Section -->
+        <section class="payment-methods">
+            <h2>Payment Methods</h2>
+            <label><input type="radio" name="payment-method" value="cod" checked> Cash On Delivery</label>
+            <label><input type="radio" name="payment-method" value="card"> Credit/Debit card</label>
+            <label><input type="radio" name="payment-method" value="upi"> UPI payment</label>
+        </section>
+
+        <button class="next-button">Proceed to Payment</button>
+    </div>
+
+    <script>
+        // Get query parameters from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // Set the display values from the query parameters
+        document.getElementById('display-name').textContent = urlParams.get('name');
+        document.getElementById('display-street').textContent = urlParams.get('street');
+        document.getElementById('display-apartment').textContent = urlParams.get('apartment');
+        document.getElementById('display-city').textContent = urlParams.get('city');
+        document.getElementById('display-state').textContent = urlParams.get('state');
+        document.getElementById('display-zipcode').textContent = urlParams.get('zipcode');
+        document.getElementById('display-country').textContent = urlParams.get('country');
+        document.getElementById('display-phone').textContent = urlParams.get('phone');
+    </script>
+</body>
+</html>
