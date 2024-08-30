@@ -1,0 +1,76 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #C1DCFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Assistant',sans-serif;
+        }
+        .container {
+            background-color: #fbfcf8;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 20px;
+            color: #1A5398;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-size: 16px;
+            color: #1A5398;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        textarea {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #C1DCFF;
+            border-radius: 5px;
+            background-color: #f0f7ff;
+            font-size: 14px;
+            color: #264e7e;
+        }
+        button {
+            background-color: #1A5398;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #C1DCFF;
+            color: #1A5398;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            color: #1A5398;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            color: #1A5398;
+        }
+
+        .atag {
+            text-decoration: none;
+            color: #fbfcf8;
+        }
+
+        .atag:hover {
+            color: #1A5398;
+        }
